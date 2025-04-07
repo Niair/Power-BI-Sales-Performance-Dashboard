@@ -69,8 +69,3 @@ Sales YTD = TOTALYTD(SUM(FactInternetSales[SalesAmount]), DimDate[Date])
 - **Product Breakdown**: Bikes dominate sales ($1.38M).  
 
 [Watch the Full Demo Here]([https://youtu.be/wv_7u9e8LE0](https://youtu.be/wv_7u9e8LE0))  
-
----  
-*Note: Replace "[Insert Your Link Here]" with your GitHub repo link. Screenshots are placeholders—add actual images for your video description!*  
-
-This version keeps it **project-focused** while clearly teasing the video content. Let me know if you'd like to emphasize any specific feature!
