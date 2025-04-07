@@ -1,35 +1,43 @@
-Here's your enhanced YouTube video description with a dedicated **Video Content** section that clearly outlines what you'll be showing in the demo:
+Here's the corrected and polished version of your YouTube video description with proper formatting for the demo link:
 
 ---
 
 # **Power BI Sales Performance Dashboard**  
 
 📊 **Project Overview**  
-An interactive sales analytics dashboard powered by **AdventureWorks Data Warehouse**, designed to track individual and team performance across regions, products, and time periods. Features drill-down capabilities, YoY growth analysis, and product/region performance insights to drive data-driven sales strategies.  
+An interactive sales analytics dashboard powered by **AdventureWorks Data Warehouse**, tracking team and individual performance across regions, products, and time periods. Features drill-down capabilities, YoY growth analysis, and product/region insights.  
 
 ---
 
-### **What You'll See in the Video Demo**  
-🎥 **In this walkthrough, I'll show you:**  
-1️⃣ **Dashboard Overview**:  
-   - How the main dashboard filters work (Year, Region, Salesperson).  
-   - Key metrics like Lifetime Sales, YoY Growth %, and Top Products.  
+### **Video Demo Highlights**  
+🎥 **In this walkthrough, you'll see:**  
+1️⃣ **Dashboard Tour**:  
+   - Interactive filters (Year/Region/Salesperson)  
+   - Key metrics: Lifetime Sales, YoY Growth %, Top Products  
 
-2️⃣ **Drill-Down Demonstration**:  
-   - Clicking into *Rachel Valdez*’s profile to explore her 815% YoY growth.  
-   - Analyzing her top-selling products (Bikes: $1.38M) and regional performance (Germany).  
+2️⃣ **Drill-Down Demo**:  
+   - *Rachel Valdez*'s 815% YoY growth analysis  
+   - Top-selling products (Bikes: $1.38M) and regional performance  
 
-3️⃣ **Technical Backend**:  
-   - A quick peek at the **Star Schema** data model in Power BI.  
-   - How DAX formulas (like `YoY%`) calculate critical metrics.  
+3️⃣ **Technical Peek**:  
+   - Star Schema data model  
+   - DAX formulas in action (YoY%, YTD)  
 
-4️⃣ **Interactive Features**:  
-   - Using slicers to compare 2023 vs. 2022 sales.  
-   - Hover effects and tooltips for deeper insights.  
+4️⃣ **Live Interactions**:  
+   - Slicers for period comparisons  
+   - Tooltips and hover effects  
 
-🔗 **GitHub Repository**: [Insert Your Link Here] *(For PBIX file, DAX scripts, or documentation)*  
+📺 **[Watch the Full Demo Here](https://youtu.be/wv_7u9e8LE0)**  
 
 ---
+
+### **Technical Implementation**  
+**🔧 Tools**: Power BI, Power Query, DAX  
+**📂 Data Model**: AdventureWorks Star Schema  
+**📈 Key DAX**:  
+```DAX 
+YoY % = DIVIDE([Total Sales] - [Total Sales PY], [Total Sales PY])
+``` 
 
 ### **Data Warehouse & Star Schema Implementation**  
 **1. Data Source: AdventureWorks OLAP Database**  
