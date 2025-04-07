@@ -1,4 +1,4 @@
-**Power BI Sales Performance Dashboard**  
+# **Power BI Sales Performance Dashboard**  
 
 📊 **Project Overview**  
 An interactive sales analytics dashboard powered by **AdventureWorks Data Warehouse**, designed to track individual and team performance across regions, products, and time periods. Features drill-down capabilities, YoY growth analysis, and product/region performance insights to drive data-driven sales strategies.  
