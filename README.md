@@ -1,7 +1,33 @@
+Here's your enhanced YouTube video description with a dedicated **Video Content** section that clearly outlines what you'll be showing in the demo:
+
+---
+
 # **Power BI Sales Performance Dashboard**  
 
 📊 **Project Overview**  
 An interactive sales analytics dashboard powered by **AdventureWorks Data Warehouse**, designed to track individual and team performance across regions, products, and time periods. Features drill-down capabilities, YoY growth analysis, and product/region performance insights to drive data-driven sales strategies.  
+
+---
+
+### **What You'll See in the Video Demo**  
+🎥 **In this walkthrough, I'll show you:**  
+1️⃣ **Dashboard Overview**:  
+   - How the main dashboard filters work (Year, Region, Salesperson).  
+   - Key metrics like Lifetime Sales, YoY Growth %, and Top Products.  
+
+2️⃣ **Drill-Down Demonstration**:  
+   - Clicking into *Rachel Valdez*’s profile to explore her 815% YoY growth.  
+   - Analyzing her top-selling products (Bikes: $1.38M) and regional performance (Germany).  
+
+3️⃣ **Technical Backend**:  
+   - A quick peek at the **Star Schema** data model in Power BI.  
+   - How DAX formulas (like `YoY%`) calculate critical metrics.  
+
+4️⃣ **Interactive Features**:  
+   - Using slicers to compare 2023 vs. 2022 sales.  
+   - Hover effects and tooltips for deeper insights.  
+
+🔗 **GitHub Repository**: [Insert Your Link Here] *(For PBIX file, DAX scripts, or documentation)*  
 
 ---
 
@@ -27,13 +53,6 @@ An interactive sales analytics dashboard powered by **AdventureWorks Data Wareho
 
 ---
 
-📸 **Dashboard Screenshots** *(Add visuals here)*  
-- **Team Performance**: Table with filters for Region/Year.  
-- **Drill-Down View**: Rachel Valdez’s 815% YoY growth in Germany.  
-- **Product Breakdown**: Bikes dominate sales ($1.38M).  
-
----
-
 🛠️ **Technical Implementation**  
 **Metrics (DAX)**  
 ```DAX
@@ -42,7 +61,16 @@ Sales YTD = TOTALYTD(SUM(FactInternetSales[SalesAmount]), DimDate[Date])
 ```  
 **Tools**: Power BI (Visuals), Power Query (ETL), DAX (Metrics).  
 
-▶️ **How It Works**  
-1. **Extracts** data from AdventureWorks DW.  
-2. **Models** it in a star schema for efficient queries.  
-3. **Visualizes** KPIs with interactive filters (Year/Region).  
+---
+
+📸 **Dashboard Screenshots** *(Add visuals here)*  
+- **Team Performance**: Table with filters for Region/Year.  
+- **Drill-Down View**: Rachel Valdez’s 815% YoY growth in Germany.  
+- **Product Breakdown**: Bikes dominate sales ($1.38M).  
+
+[Watch the Full Demo Here]([https://youtu.be/wv_7u9e8LE0](https://youtu.be/wv_7u9e8LE0))  
+
+---  
+*Note: Replace "[Insert Your Link Here]" with your GitHub repo link. Screenshots are placeholders—add actual images for your video description!*  
+
+This version keeps it **project-focused** while clearly teasing the video content. Let me know if you'd like to emphasize any specific feature!
