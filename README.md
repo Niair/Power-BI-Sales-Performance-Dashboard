@@ -1,7 +1,3 @@
-Here's the corrected and polished version of your YouTube video description with proper formatting for the demo link:
-
----
-
 # **Power BI Sales Performance Dashboard**  
 
 📊 **Project Overview**  
